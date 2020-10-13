@@ -1,0 +1,54 @@
+.item {
+   color: white;
+   font-weight: bold;
+   font-size: x-large;
+   font-variant: small-caps;
+   height: .75rem;
+}
+
+.precio {
+   color: white;
+   font-size: larger;
+   vertical-align: middle;
+   text-align: center;
+   color: green;
+}
+
+.descripcion {
+   color: white;
+   font-style: italic;
+   font-size: 1rem;
+}
+
+.elemento {
+   margin-bottom: auto;
+}
+
+.logo img {
+   z-index: -100;
+   width: 88px;
+   height: 88px;
+   border-radius: 44px;
+   border: 2px solid white;
+   background-color: black;
+}
+
+.cocteles .card-body,
+.shots .card-body,
+.sandwiches .card-body {
+   min-height: fit-content !important;
+}
+
+@media screen and (min-width: 576px) {
+   .cocteles .card-body {
+      min-height: 193px !important;
+   }
+
+   .shots .card-body {
+      min-height: 121px !important;
+   }
+
+   .sandwiches .card-body {
+      min-height: 197px !important;
+   }
+}
