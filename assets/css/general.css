@@ -33,6 +33,14 @@
    background-color: black;
 }
 
+p.card-text {
+   font-size: small;
+}
+
+.card-subtitle{
+   margin-top: -2rem;
+}
+
 .cocteles .card-body,
 .shots .card-body,
 .sandwiches .card-body {
@@ -41,14 +49,14 @@
 
 @media screen and (min-width: 576px) {
    .cocteles .card-body {
-      min-height: 193px !important;
+      min-height: 157px !important;
    }
 
    .shots .card-body {
-      min-height: 121px !important;
+      min-height: 95px !important;
    }
 
    .sandwiches .card-body {
-      min-height: 197px !important;
+      min-height: 166px !important;
    }
 }
